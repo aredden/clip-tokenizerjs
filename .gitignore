@@ -1,0 +1,10 @@
+# Dependencies
+node_modules
+
+# Compiled files
+dist/*.js
+dist/*.json
+dist/*.map
+
+# Error log
+yarn-error.log

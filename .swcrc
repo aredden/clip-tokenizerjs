@@ -1,0 +1,24 @@
+{
+    "minify": false,
+    "jsc": {
+        "minify": {
+            "compress": false,
+            "mangle": false
+        },
+        "parser": {
+            "syntax": "typescript"
+        },
+        "target": "es2021",
+        "loose": false,
+        "externalHelpers": false,
+        "keepClassNames": false
+    },
+    "module": {
+        "type": "commonjs",
+        "strict": true,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+    },
+    "sourceMaps": true
+}
